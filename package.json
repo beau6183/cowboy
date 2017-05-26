@@ -1,0 +1,13 @@
+{
+  "name": "instant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Beau Scott <bscott@lifetimefitness.com> (http://nexus.eventops.io:8081/content/repositories/npm/)",
+  "license": "ISC"
+}
