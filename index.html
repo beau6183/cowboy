@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+      .large-button {
+        width: 200px;
+        height: 190px;
+        position: absolute;
+        content: url('transparent_button_normal.png') url('transparent_button_pressed.png');
+        background: url('transparent_button_normal.png') no-repeat;
+      }
+    </style>
+    <script>
+      var aud = new Audio('untitled_89.mp3');
+      function heehaw() {
+        aud.play();
+      }
+    </script>
+  </head>
+  <body>
+    <div class="large-button" onclick="heehaw()"></div>
+  </body>
+</html>
