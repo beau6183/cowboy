@@ -6,20 +6,22 @@
         width: 200px;
         height: 190px;
         position: absolute;
+
         content: url('transparent_button_normal.png') url('transparent_button_pressed.png');
         background: url('transparent_button_normal.png') no-repeat red;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
       }
       .large-button:hover:active {
-        width: 200px;
-        height: 190px;
-        position: absolute;
         content: url('transparent_button_pressed.png') url('transparent_button_normal.png');
         background: url('transparent_button_pressed.png') no-repeat red;
       }
       body {
         background: red;
         height: "100%";
-        align: "center";
+        position: "absolute";
       }
     </style>
     <script>
